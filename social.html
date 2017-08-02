@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Main menu</title>
+<body bgcolor="#F08080">
+<font color="Yellow" font style="arial">
+<marquee><h1 styel="text-align:center">It's About Me</marquee></h1><br>
+<font color="blue" font style="verdana">
+<style>
+.sidenav {
+    display: none;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#696969;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color:#800000;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color:blue;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color:yellow;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    }
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    background-color:white;
+    color:blue;
+    text-align: center;
+    border-radius: 4px;
+    padding: 2px 0;
+    position: absolute;
+    z-index: 1;
+    top: -2px;
+    font-size: 50%;
+    left: 70%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+</style>
+</head>
+<body>
+
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div class="tooltip">
+  <a href="menu.html">Home
+<span class="tooltiptext">Home</span></a></div><br>
+<div class="tooltip">
+<a href="aboutme.html">About Me
+<span class="tooltiptext">About Me</span></a></div>
+<div class="tooltip">
+  <a href="resume.html">Resume
+<span class="tooltiptext">Reme</span></a></div>
+<div class="tooltip">
+  <a href="Social.html">Social Site
+<span class="tooltiptext">Social site</span></a></div>
+<div class="tooltip">
+  <a href="contact.html">Contact
+<span class="tooltiptext">Contact</span></a></div>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.display = "block";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.display = "none";
+}
+</script>
+<center>
+<a target="_blank" title="find us on Facebook" href="http://www.facebook.com">
+<img alt="follow me on facebook" src="images.jpg" border=3 
+style="width:30px;height:28px;"></a></center>
+ 
+<center>
+<a target="_blank" title="find us on Linkedin" href="https://in.linkedin.com/in/saroj-bala-7059b3120">
+<img alt="follow me on Linkedin" src="download1.jpg" border=3 
+style="width:30px;height:28px;"></a></center>
+ 
+<center>
+<a target="_blank" title="find us on Wordpress" href="https://sarojbalapoem.wordpress.com">
+<img alt="follow me on Wordpress" src="download.jpg" border=3 
+style="width:30px;height:28px;"></a></center>
+ 
+
+<center>
+<a target="_blank" title="find us on gmail" href="https://plus.google.com/u/0/116629335343664306834">
+<img alt="follow me on Gmail" src="download (1).jpg" border=3 
+style="width:30px;height:28px;"></a></center>
+ 
+
+
+
+
+<center>
+<a target="_blank" title="find us on poetry site" href="http://www.poetry.com/#">
+<img alt="like me on poem site" src="images (1).jpg" border=3 
+style="width:30px;height:28px;"></a></center>
+ 

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Main menu</title>
+<body bgcolor="#F08080">
+<font color="Yellow" font style="arial">
+<marquee><h1 styel="text-align:center">It's About Me</marquee></h1><br>
+<font color="blue" font style="verdana">
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+
+
+.sidenav {
+    display: none;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #696969;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #800000;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: blue;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+color:yellow;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: Yellow;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    
+}
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    }
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    background-color:white;
+    color:blue;
+    text-align: center;
+    border-radius: 4px;
+    padding: 2px 0;
+    position: absolute;
+    z-index: 1;
+    top: -2px;
+    font-size: 50%
+    left:70%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+
+
+header{
+    padding: 2em;
+    background-color:#FFC0CB;
+    clear: left;
+    text-align: center;
+   
+    color: #FF1493;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 2;
+    padding: 5em;
+color:#ADFF2F;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 200px;
+    border-left: 5px solid gray;
+    padding: 5em;
+    overflow: hidden;
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <div class="tooltip">
+ <a href="menu.html">Home
+<span class="tooltiptext">Home</span></a></div><br>
+<div class="tooltip">
+<a href="aboutme.html">About Me
+<span class="tooltiptext">About Me</span></a></div>
+<div class="tooltip">
+  <a href="resume.html">Resume
+<span class="tooltiptext">Resume</span></a></div>
+<div class="tooltip">
+  <a href="social.html">Social Site
+<span class="tooltiptext">Social Site</span></a></div>
+<div class="tooltip">
+  <a href="contact.html">Contact
+<span class="tooltiptext">Contact</span></a></div>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.display = "block";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.display = "none";
+}
+</script>
+
+
+
+
+&nbsp;&nbsp;<input type="button" class="button" value="About Me"></br><br><br>
+
+
+
+
+<div class="container">
+
+<header>
+
+
+<marquee behavior="alternate" direction="left">Give
+ me a minute I'm Good</marquee>
+<marquee behavior="alternate" direction="left">Give me a minute
+ I can prove Myself</marquee>
+<marquee behavior="alternate" direction="left">Give me a minute
+ I can change Myself</marquee>
+
+
+
+
+
+</header>
+  
+<nav>
+ <h1> <p>I'm Saroj Bala, I'm 22-year-old. <br>
+I am interested in web development.
+</p></h1></nav>
+
+<article>
+ <h1>I am from Aurangabad Bihar</h1>
+<p>I left my hometown(Aurangabad) and my family in 2012 for completing
+the Bachelor of engineering degree in Computer Science and Engineering from  
+Technocrats Institute of Technology & Science, Bhopal</p>
+<p>At the time of starting days in my college I facec so many problems,
+ because  i left first time out of my hometown.<p>
+<p>But after first semester i fell so happy and i'm so 
+interested in my study. </p>
+<p>In four year i lern so many thing and i am to be a engineer student</p>
+<p>I'm interested in web technology HTMl,CSS, JAVA SCRIPT, BOOTSTRAP</p>
+<I want to do somthing new and creative ....</p>
+
+
+</p>
+</article>
+
+
+</div>
+
+</body>
+</html>

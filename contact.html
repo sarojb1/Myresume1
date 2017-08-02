@@ -1,0 +1,247 @@
+<html>
+<head>
+<title>Main menu</title>
+<body bgcolor="#F08080">
+<font color="yellow" font style="arial">
+<marquee><h1 styel="text-align:center">It's About Me</marquee></h1><br>
+<font color="blue" font style="verdana">
+<style>
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    display: none;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#696969;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color:#800000;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color:blue;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+color:yellow;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: Yellow;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    
+}
+
+
+
+div.container {
+    width: 100%;
+    
+}
+
+
+article {
+    margin-left: 150px;
+    
+    padding: 10em;
+    
+}
+
+nav {
+    float: left;
+    max-width: 180px;
+    margin: 15;
+    padding: 15em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 2;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+
+span.note {
+    font-size: 120%;
+    color: red;
+}
+span.note1 {
+    font-size: 120%;
+    color: green;
+}
+span.note2 {
+    font-size: 120%;
+    color: Yellow;
+}
+span.note3 {
+    font-size: 120%;
+    color: Brown;
+}
+span.note4 {
+    font-size: 120%;
+    color: White;
+}
+
+
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    }
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    background-color:white;
+    color:blue;
+    text-align: center;
+    border-radius: 4px;
+    padding: 2px 0;
+    position: absolute;
+    z-index: 1;
+    top: -2px;
+    font-size: 50%;
+    left: 70%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+
+
+
+</style>
+<head><body>
+
+
+
+
+
+
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="tooltip">
+<a href="menu.html">Home
+<span class="tooltiptext">Home</span></a></div><br>
+<div class="tooltip">
+<a href="aboutme.html">About Me
+<span class="tooltiptext">About Me</span></a></div>
+<div class="tooltip">
+  <a href="resume.html">Resume
+<span class="tooltiptext">Resume</span></a></div>
+<div class="tooltip">
+  <a href="social.html">Social Site
+<span class="tooltiptext">Social Site</span></a></div>
+<div class="tooltip">
+  <a href="contact.html">Contact
+<span class="tooltiptext">Contact</span></a></div>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.display = "block";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.display = "none";
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+&nbsp;&nbsp;<input type="button" class="button" value="Contact"></br>
+
+
+
+
+
+
+
+<div class="container">
+
+
+  
+<nav><p><h1>Connect To Me:</h1></p>
+<p><h1><span class="note3">
+  Sarojbala.7.1995@gmail.com</h1></span></p>
+<h1><p><span class="note4">
++917019398052</span></p><h1></nav>
+
+<article>
+<p><h1>Hello, I'm</h1></p>
+
+<h1><p><span class="note"> 
+Saroj Bala</span></p></h1>
+
+<h1><p><span class="note2"> 
+Address:</span></p></h1>
+<span class="note1">
+<h1><p>27th Main, 4th Block, Ejipura, Kormangala, Bangalore, 
+Karnataka INDIA 570047</span></p></h1>
+</article>
+
+
+
+
+
+
+
+</body>
+</html>
